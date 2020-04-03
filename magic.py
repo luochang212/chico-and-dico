@@ -47,8 +47,6 @@ def decode(first_four):
         if i != 4:
             visible_cards.append(first_four[i])
             r_list[i] = sorted(visible_cards).index(first_four[i])
-        else:
-            continue
 
     # 总结当前信息
     sum_of_first_four = sum(first_four)
